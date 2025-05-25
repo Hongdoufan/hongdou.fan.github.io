@@ -1,2 +1,14 @@
-
 theme: jekyll-theme-clean-blog
+
+# Clean Blog 4.0+ requires these defaults:
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Theme-specific settings (customize these)
+clean_blog: aaa
+  header: bbb
+    background: "assets/img/home-bg.jpg"  # Default header image
+  social:
+    twitter: your_handle
+    github: your_handle
